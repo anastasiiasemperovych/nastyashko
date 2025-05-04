@@ -1,0 +1,79 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f0f4ff, #dfe9f3);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+  
+  .container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 12px;
+  }
+  
+  h1 {
+    color: #2c3e50;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 3px solid #007acc;
+  }
+  
+  .about, .details {
+    margin-top: 30px;
+    text-align: left;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .about h2, .details h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .portfolio {
+    margin-top: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #007acc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #005f99;
+  }
+  
+  .socials {
+    margin-top: 20px;
+  }
+  
+  .icon {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.2s ease;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+  }
+  
